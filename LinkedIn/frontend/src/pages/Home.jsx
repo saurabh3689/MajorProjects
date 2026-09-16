@@ -42,6 +42,7 @@ function Home() {
         formData, {withCredentials: true})
         console.log(result)
         setPosting(false)
+        setUploadPost(false)
 
     }catch(error){
       setPosting(false)
